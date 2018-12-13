@@ -1,0 +1,9 @@
+.header {
+    min-height: 127px;
+    background: url("../img/header_bg.png") repeat-x;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}

@@ -14,7 +14,8 @@ const js_build         = require('./jsbuild');
 gulp.task('watch', function(){
     gulp.watch(config.source.assets_css, gulp.series('css_build'));
     gulp.watch(config.source.scss, gulp.series('scss_build'));
-    gulp.watch(config.source.html, gulp.series('html_build'));
+
+    gulp.watch(config.source.html_src, gulp.series('html_build'));
     gulp.watch(config.source.fonts, gulp.series('fonts_build'));
     gulp.watch(config.source.img, gulp.series('img_build'));
     gulp.watch(config.source.js, gulp.series('js_build'));

@@ -1,0 +1,12 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.footer{
+  min-height: 127px;
+  background: url("../img/header_bg.png") repeat-x;
+  @include media-breakpoint-up(md){
+
+  }
+
+}

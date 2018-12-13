@@ -2,7 +2,7 @@ module.exports = {
 
     source:{
         html        : 'src/html/*.html',
-        html_src    : 'src/blocks/**/*.html',
+        html_src    : 'src/**/*.html',
         scss        : 'src/**/*.scss',
         fonts       : 'src/fonts/**/*.*',
         img         : 'src/images/',
@@ -16,7 +16,7 @@ module.exports = {
 
     build:{
         html        : 'build/',
-        fonts       : 'build/assets/template-site/font/',
+        fonts       : 'build/assets/template-site/fonts/',
         css         : 'build/assets/template-site/css/',
         js          : 'build/assets/template-site/js/',
         img         : 'build/assets/template-site/img/',

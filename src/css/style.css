@@ -1,1 +1,18 @@
-@import "../blocks/test/test.css";
+@import "../common.blocks/font-face/font-face.css";
+@import "../common.blocks/custom_bootstrap/custom_bootsrap.css";
+
+@import "../common.blocks/icons/icon-template.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/footer/footer.css";
+
+body {
+
+    font-family: "Exo2";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+}
