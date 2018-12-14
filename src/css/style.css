@@ -4,6 +4,7 @@
 @import "../common.blocks/icons/icon-template.css";
 
 @import "../blocks/header/header.css";
+@import "../blocks/navbar/navbar.css";
 @import "../blocks/footer/footer.css";
 
 body {

@@ -1,0 +1,13 @@
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-nav {
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
