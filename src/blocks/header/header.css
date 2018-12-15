@@ -1,5 +1,5 @@
 .header {
-    min-height: 127px;
+    min-height: 100px;
     background: url("../img/header_bg.png") repeat-x;
 }
 
@@ -21,7 +21,7 @@
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    min-height: 127px;
+    min-height: 100px;
 }
 
 .header__logo-link {
@@ -59,13 +59,17 @@
     font-size: 1.2rem;
 }
 
-@media (min-width: 576px) {
-    .header__logo-link {
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
-    }
+.header__tel {
+    color: white;
+    text-decoration: none;
+}
 
+.header__tel:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
     .header__logo {
         width: 130px;
     }
@@ -88,10 +92,12 @@
 }
 
 @media (min-width: 768px) {
-    .header__logo-link {
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
+    .header {
+        min-height: 127px;
+    }
+
+    .header__wrapper {
+        min-height: 127px;
     }
 
     .header__logo {
@@ -116,12 +122,6 @@
 }
 
 @media (min-width: 992px) {
-    .header__logo-link {
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        align-self: center;
-    }
-
     .header__logo {
         width: 250px;
     }

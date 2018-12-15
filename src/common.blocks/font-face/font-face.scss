@@ -10,6 +10,13 @@
   font-family: "Exo2";
   font-weight: bold;
   font-style: normal;
-  src: url("../fonts/Exo2/Exo2ExtraBold/Exo2ExtraBold.eot");
-  src: url("../fonts/Exo2/Exo2ExtraBold/Exo2ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2/Exo2ExtraBold/Exo2ExtraBold.woff") format("woff"), url("../fonts/Exo2/Exo2ExtraBold/Exo2ExtraBold.ttf") format("truetype");
+  src: url("../fonts/Exo2/Exo2Bold/Exo2Bold.eot");
+  src: url("../fonts/Exo2/Exo2Bold/Exo2Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2/Exo2Bold/Exo2Bold.woff") format("woff"), url("../fonts/Exo2/Exo2Bold/Exo2Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Exo2";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Exo2/Exo2SemiBold/Exo2SemiBold.eot");
+  src: url("../fonts/Exo2/Exo2SemiBold/Exo2SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2/Exo2SemiBold/Exo2SemiBold.woff") format("woff"), url("../fonts/Exo2/Exo2SemiBold/Exo2SemiBold.ttf") format("truetype");
 }
