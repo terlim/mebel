@@ -19,8 +19,32 @@
 
 <div class="container">
     <div class="row">
-        <div class="col d-none d-md-block col-md-3">left menu</div>
-        <div class="col col-md-9">content</div>
+        <div class="col d-none d-md-block col-md-3">
+            //= ../blocks/left-menu/left-menu.html
+        </div>
+        <div class="col col-md-9">
+            //= ../blocks/swiper/swiper.html
+            <div class="dummy__mainpage">
+                <span>Цены и наличие уточняйте у менеджеров</span>
+            </div>
+            <div class="our_advantage">
+                <span class="our_advantage-title">Наши преимущества</span>
+                <div class="our_advantage--wrapper">
+                    <div class="our_advantage--store"><img class="svg_store" src="assets/template-site/img/store.svg"><div>Вся мебель в наличии на складе</div></div>
+                    <div class="our_advantage--koshel"><img class="svg_store" src="assets/template-site/img/koshel.svg"><div>Цены доступные всем</div></div>
+                </div>
+            </div>
+            <button type="button"
+                    class="btn navbottom__button waves-effect waves-yellow offcanvas-toggle navbottom__button-catalog"
+                    type="button" data-toggle="offcanvas"
+                    data-target="#navBottomButton-catalog"
+                    aria-controls="navBottomButton-catalog"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"><i class="icon__checklist"></i>
+            </button>
+            //= ../blocks/promo_store/promo_store.html
+
+        </div>
     </div>
 </div>
 

@@ -2,12 +2,11 @@
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 
-.footer{
-  margin-top: 1rem;
-  min-height: 127px;
-  background: url("../img/header_bg.png") repeat-x;
-  @include media-breakpoint-up(md){
-
+.h1{
+  font-size: 1.5rem;
+}
+@include media-breakpoint-up(md){
+  .h1{
+    font-size: 2rem;
   }
-
 }

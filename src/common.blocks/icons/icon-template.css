@@ -3,22 +3,3 @@
     src: url("../fonts/icons/myiconfont.eot");
     src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
-
-.logo-icon:before {
-    font-family: "myiconfont";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: none;
-}
-
-.logo-icon:before {
-    content: '\E002';
-}
-
-.logo-icon {
-    color: white;
-}

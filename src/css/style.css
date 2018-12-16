@@ -1,9 +1,21 @@
 @import "../common.blocks/font-face/font-face.css";
 @import "../common.blocks/custom_bootstrap/custom_bootsrap.css";
+@import "../../bootstrap-offcanvas/dist/css/bootstrap.offcanvas.css";
 
 @import "../common.blocks/icons/icon-template.css";
+@import "../common.blocks/custom_bootstrap/typography.css";
+
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
 
 @import "../blocks/header/header.css";
 @import "../blocks/navbar/navbar.css";
+
+
+@import "../blocks/main-page/main-page.css";
+@import "../blocks/card_catalog/card-catalog.css";
+@import "../blocks/promo_store/promo_store.css";
 @import "../blocks/footer/footer.css";
+
+
+
 

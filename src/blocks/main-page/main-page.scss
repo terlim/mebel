@@ -1,0 +1,103 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+
+
+.dummy__mainpage{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border: 3px solid #e81616;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  color: #e81616;
+  padding: .5rem;
+  font-weight: 500;
+}
+
+
+.our_advantage{
+  color: #424242;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  &-title{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ff9b0d;
+  }
+  &--wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+  }
+  &--store,&--koshel{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: .5rem 0 .5rem 0;
+    font-size: .9rem;
+    align-content: center;
+    align-items: center;
+    div{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+  }
+}
+
+.svg_store{
+  height: 35px;
+}
+
+
+
+@include media-breakpoint-up(md){
+  .dummy__mainpage{
+    font-size: 1.7rem;
+  }
+  .our_advantage{
+    &-title{
+      font-size: 1.7rem;
+    }
+
+  }
+
+
+}
+
+@include media-breakpoint-up(lg){
+  .our_advantage{
+
+    &--store,&--koshel{
+
+      font-size: 1.1rem;
+
+  }
+
+  .svg_store{
+    height: 40px;
+  }
+
+}
+}
+@include media-breakpoint-up(xl){
+  .our_advantage{
+
+    &--store,&--koshel{
+
+      font-size: 1.3rem;
+
+    }
+
+    .svg_store{
+      height: 45px;
+    }
+
+  }
+}

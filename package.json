@@ -4,7 +4,8 @@
   "description": "core-css for gulp",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.4.1"
+    "npm": "^6.4.1",
+    "swiper": "^4.4.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
