@@ -1,0 +1,46 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+.navbar-nav-left{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  flex-direction: column;
+
+  li{
+    text-transform: uppercase;
+    padding: .2rem .5rem;
+    margin: .2rem 0;
+    &:hover{
+      a{
+      color:#e81616;
+      }
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .active{
+    color: #fff;
+    background-color: #e81616;
+    border-radius: 10px;
+    &:hover{
+      a{
+        color:white;
+      }
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .navbar-offcanvas {
+    background-color: white;
+    padding-top: 1rem;
+  }
+}

@@ -55,7 +55,14 @@
   height: 35px;
 }
 
-
+.btn-more{
+  background-color: #e81616;
+  color:white;
+  font-weight: 500;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
 
 @include media-breakpoint-up(md){
   .dummy__mainpage{

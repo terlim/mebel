@@ -1,5 +1,18 @@
 .footer {
+    padding: 1rem 0;
     margin-top: 1rem;
     min-height: 127px;
-    background: url("../img/header_bg.png") repeat-x;
+    background: url("../img/header_bg.png") repeat;
+}
+
+.footer-link a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-copyright {
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
 }
