@@ -54,7 +54,11 @@
 .svg_store{
   height: 35px;
 }
+.btn-more--wrapper{
+  display: flex;
 
+  justify-content: center;
+}
 .btn-more{
   background-color: #e81616;
   color:white;
@@ -62,6 +66,17 @@
   border-radius: 10px;
   text-transform: uppercase;
   margin: 1rem 0;
+  width: auto !important;
+}
+.btn-category{
+  display: initial;
+  background-color: #e81616;
+  color:white;
+  font-weight: 500;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  width: auto !important;
 }
 
 @include media-breakpoint-up(md){
@@ -73,6 +88,16 @@
       font-size: 1.7rem;
     }
 
+  }
+  .btn-category{
+    display: none;
+    background-color: #e81616;
+    color:white;
+    font-weight: 500;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    width: auto !important;
   }
 
 
@@ -107,4 +132,7 @@
     }
 
   }
+}
+.content-text{
+  margin-top: 2rem;
 }

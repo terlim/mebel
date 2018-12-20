@@ -77,6 +77,17 @@
     height: 35px;
 }
 
+.btn-more--wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .btn-more {
     background-color: #e81616;
     color: white;
@@ -85,6 +96,19 @@
     border-radius: 10px;
     text-transform: uppercase;
     margin: 1rem 0;
+    width: auto !important;
+}
+
+.btn-category {
+    display: initial;
+    background-color: #e81616;
+    color: white;
+    font-weight: 500;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    width: auto !important;
 }
 
 @media (min-width: 768px) {
@@ -94,6 +118,18 @@
 
     .our_advantage-title {
         font-size: 1.7rem;
+    }
+
+    .btn-category {
+        display: none;
+        background-color: #e81616;
+        color: white;
+        font-weight: 500;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        width: auto !important;
     }
 }
 
@@ -115,4 +151,8 @@
     .our_advantage .svg_store {
         height: 45px;
     }
+}
+
+.content-text {
+    margin-top: 2rem;
 }
