@@ -15,6 +15,9 @@
 @import "../blocks/card_catalog/card-catalog.css";
 @import "../blocks/promo_store/promo_store.css";
 @import "../blocks/left-menu/left-menu.css";
+@import "../blocks/catalog/catalog.css";
+@import "../blocks/dummy_promo/dummy_promo.css";
+@import "../blocks/tovar/tovar.css";
 @import "../blocks/footer/footer.css";
 
 

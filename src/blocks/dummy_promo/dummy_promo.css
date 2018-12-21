@@ -1,0 +1,107 @@
+.dummy_promo--wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 3px solid #e81616;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: .5rem;
+}
+
+.dummy_promo--text1 {
+    color: #e81616;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.dummy_promo--text2 {
+    color: #ff9b0d;
+    font-size: 1.2rem;
+}
+
+.star_dummy {
+    width: 100px;
+    height: 40px;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    height: 150px;
+    top: -50px;
+    left: -40px;
+}
+
+.rotatable {
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.dummy_icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.dummy_icons--item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #e81616;
+    text-transform: uppercase;
+}
+
+.dummy_icons--item img {
+    width: 50px;
+}
+
+@media (min-width: 768px) {
+    .dummy_icons--item {
+        width: auto;
+    }
+}

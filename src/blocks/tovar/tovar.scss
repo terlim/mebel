@@ -1,0 +1,27 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.tovar_parent{
+  color: #9e9e9e;
+}
+.tovar-title{
+  color: #e81616;
+  text-transform: uppercase;
+}
+.tovar_price{
+  color: #e81616;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.tovar_prop{
+  text-transform: uppercase;
+}
+
+.btn-order{
+  background: linear-gradient(to right, #fdbe00, #fea201);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: .5rem 1.5rem;
+}
