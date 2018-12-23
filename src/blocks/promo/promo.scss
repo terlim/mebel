@@ -1,0 +1,31 @@
+.promo-card__wrapper{
+  height: 100%;
+}
+.promo-card__title{
+  color: #aa2323;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover{
+    color: #aa2323;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+}
+.promo-more{
+  color: #aa2323;
+  text-decoration: none;
+  &:hover{
+    color: #aa2323;
+    text-decoration: none;
+
+  }
+}
+.card{
+  margin-bottom: 2rem;
+}

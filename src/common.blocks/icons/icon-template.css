@@ -3,3 +3,26 @@
     src: url("../fonts/icons/myiconfont.eot");
     src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
+
+.icon__ruble:before {
+    font-family: "myiconfont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.icon__ruble:before {
+    content: '\E001';
+}
+
+.icon__ruble {
+    padding-right: 0.1rem;
+    padding-left: .5rem;
+    font-size: .7em;
+    color: black;
+    font-weight: 400;
+}

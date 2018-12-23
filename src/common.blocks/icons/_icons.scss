@@ -7,11 +7,8 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
-%icon-car,
-%icon-koshel,
+%icon-glyphicons-ruble,
 %icon-logo,
-%icon-star,
-%icon-store,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -53,18 +50,9 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-car:before {
+%icon-glyphicons-ruble:before {
 	content:'\E001';
 }
-%icon-koshel:before {
-	content:'\E002';
-}
 %icon-logo:before {
-	content:'\E003';
-}
-%icon-star:before {
-	content:'\E004';
-}
-%icon-store:before {
-	content:'\E005';
+	content:'\E002';
 }

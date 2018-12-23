@@ -1,0 +1,1 @@
+<div class="pagination justify-content-center"><ul class="pagination ">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>

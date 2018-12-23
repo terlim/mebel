@@ -1,4 +1,4 @@
-//= ../../node_modules/jquery/dist/jquery.js
+
 //= ../../node_modules/popper.js/dist/umd/popper.js
 //= ../../bootstrap-offcanvas/dist/js/bootstrap.offcanvas.js
 //= ../../node_modules/bootstrap/dist/js/bootstrap.min.js

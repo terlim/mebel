@@ -11,6 +11,7 @@
     color: #e81616;
     font-size: 2rem;
     font-weight: 600;
+    text-align: right;
 }
 
 .tovar_prop {
@@ -26,4 +27,50 @@
     font-size: 1.3rem;
     font-weight: 500;
     padding: .5rem 1.5rem;
+    color: black;
+}
+
+.btn-order:hover {
+    color: white;
+}
+
+.msGallery {
+    margin-bottom: 1rem;
+}
+
+.form-inline {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.tovar__brend {
+    margin: .5rem 0;
+}
+
+.tovar__article {
+    margin: .5rem 0;
+}
+
+.form-btn-order {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-top: 1rem;
+}
+
+.tovar__content {
+    margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+    .msGallery {
+        margin-bottom: 0;
+    }
+
+    .fotorama {
+        border: 1px solid #e5e5e5 !important;
+    }
 }

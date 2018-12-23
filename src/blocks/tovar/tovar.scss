@@ -13,6 +13,7 @@
   color: #e81616;
   font-size: 2rem;
   font-weight: 600;
+  text-align: right;
 }
 .tovar_prop{
   text-transform: uppercase;
@@ -24,4 +25,42 @@
   font-size: 1.3rem;
   font-weight: 500;
   padding: .5rem 1.5rem;
+  color: black;
+  &:hover{
+    color: white;
+  }
+}
+.msGallery{
+  margin-bottom: 1rem;
+
+}
+.form-inline {
+ justify-content: space-between;
+}
+
+.tovar__brend{
+margin: .5rem 0;
+}
+.tovar__article{
+  margin: .5rem 0;
+}
+
+.form-btn-order{
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.tovar__content{
+  margin: 1rem 0;
+}
+
+@include media-breakpoint-up(md){
+  .msGallery{
+    margin-bottom: 0;
+
+  }
+  .fotorama {
+
+    border: 1px solid #e5e5e5 !important;
+  }
 }

@@ -1,0 +1,47 @@
+.promo-card__wrapper {
+    height: 100%;
+}
+
+.promo-card__title {
+    color: #aa2323;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.promo-card__title:hover {
+    color: #aa2323;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.card-footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.promo-more {
+    color: #aa2323;
+    text-decoration: none;
+}
+
+.promo-more:hover {
+    color: #aa2323;
+    text-decoration: none;
+}
+
+.card {
+    margin-bottom: 2rem;
+}

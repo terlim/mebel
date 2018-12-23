@@ -1,0 +1,15 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+.map {
+    margin: 0 0 2rem;
+    height: 200px;
+  }
+
+@include media-breakpoint-up(md){
+  .map {
+    margin: 0 0 2rem;
+    height: 450px;
+  }
+
+}

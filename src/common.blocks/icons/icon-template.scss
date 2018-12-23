@@ -1,6 +1,10 @@
 @import "icons";
 
-.icon-store{
-
-
+.icon__ruble{
+  @extend %icon-glyphicons-ruble;
+  padding-right: 0.1rem;
+  padding-left: .5rem;
+  font-size: .7em;
+  color: black;
+  font-weight: 400;
 }
