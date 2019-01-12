@@ -49,6 +49,11 @@
     margin: .5rem 0;
 }
 
+.tovar_brand_val {
+    float: right;
+    font-weight: 600;
+}
+
 .tovar__article {
     margin: .5rem 0;
 }
